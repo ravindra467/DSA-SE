@@ -1,0 +1,1 @@
+b'Problem\nZipped Exe Link\nInput Format: \nFirst line contains an integer N, Number of Test cases\nFollowing N lines will contain a string S.(may contain spaces and special characters)\nOutput Format: \nFor each Test Case, the output contains an integer  \nConstraints: \n1 <= N, <= 100 \n1 <= |S| <= 103  where |S| is the length of the string\n'

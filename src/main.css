@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
+
+body {
+  background: #353535;
+  color: #00b4cc;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 5vw;
+  align-items: center;
+  text-align: center;
+}
+
+#app-title {
+  position: absolute;
+  top: 4%;
+  left: 2%;
+  padding-bottom: 10%;
+  font-family: monospace;
+}
+
+#app-title {
+  text-align: left;
+  align-self: left;
+  font-size: 50%;
+}
+#problems {
+  position: absolute;
+  top: 20%;
+  width: 95%;
+  left: 2.5%;
+  /* align-items: center;
+  align-self: center; */
+}
+.basic-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-self: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #505050;
+  font-size: 1rem;
+  color: #fff;
+  box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem,
+    rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+  transition: all 500ms;
+  overflow: hidden;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card:hover {
+  box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em,
+    rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
+  transform: translateY(-3px) scale(1.05);
+}
+
+.qtitle {
+  font-size: large;
+  color: #00b4cc;
+}
+.qdesc {
+  font-size: small;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+@media screen and (min-width: 600px) {
+  .card {
+    font-size: 2rem;
+  }
+}

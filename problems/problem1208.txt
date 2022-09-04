@@ -1,0 +1,1 @@
+b'Problem\nZipped Exe Link\nInput Format: \nFirst line contains an integer T, representing the number of test cases.\nFor each Test Case, enter two strings in next two lines(without spaces).\nOutput Format: \nFor each Test Case, the output contains a string\nConstraints: \nT <= 30 \nLength of input strings(both)  <= 4000 \nLength of output strings <= 4000 \n'
